@@ -6,8 +6,8 @@
 	"build": {
 		"args": { 
 			// SchUnit version
-			"VERSION": "edge",
-			"USER_UID": 1000
+			"VERSION": "latest",
+			"USER_UID": "1000"
 		}
 	},
 
