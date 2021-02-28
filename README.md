@@ -5,5 +5,5 @@ This project contains the files needed for your project `.devcontainer` folder t
 In your project folder, download and extract the content of this repository:
 
 ```bash
-wget -qc https://github.com/schunit/config-devcontainer/releases/latest/download/project-files.tar.gz -O - | tar -xz
+wget -qc https://schunit.com/dl/config-devcontainer/latest/project-files.tar.gz -O - | tar -xz
 ```
