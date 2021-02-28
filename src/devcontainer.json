@@ -2,11 +2,15 @@
 	"dockerFile": "Dockerfile",
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
 
+	// Comment out the next line to run as root
+	"remoteUser": "dev",
+
 	// Build arguments
 	"build": {
 		"args": { 
 			// SchUnit version
 			"VERSION": "latest",
+
 			"USER_UID": "1000"
 		}
 	},
@@ -23,8 +27,5 @@
 		"geeebe.duplicate",
 		"redhat.vscode-yaml",
 		"redhat.vscode-xml"
-	],
-	
-	// Comment out the next line to run as root
-	"remoteUser": "dev"
+	]
 }
